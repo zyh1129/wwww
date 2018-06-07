@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="box">
+        <input type="text" v-model="msg">
+        <p>{{msg}}</p>
+        <input type="text" v-model="msg">
+    </div>
+    <script src="js/vue.js"></script>
+    <script>
+        var Demo = new Vue({
+            el:'#box',
+            data:{
+                msg:'hello word',
+                meg:'hello vue'
+            }
+        })
+    </script>
+</body>
+</html>

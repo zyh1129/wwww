@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--<div id="box">-->
+        <!--<input type="button" value="点击我" v-on:click="add()" />-->
+        <!--<ul>-->
+            <!--<li v-for="(value,index) in arr">-->
+                <!--{{index}}:{{value}}-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+    <!--<script src="js/vue.js"></script>-->
+    <!--<script>-->
+        <!--var Demo = new Vue({-->
+            <!--el:"#box",-->
+            <!--data:{-->
+                <!--arr:['apple','banana','peat'],-->
+                <!--json:{-->
+                    <!--a:'apple',-->
+                    <!--b:'banana',-->
+                    <!--c:'pear',-->
+                    <!--d:'orange'-->
+                <!--}-->
+                <!--},-->
+                <!--methods:{-->
+                    <!--add:function () {-->
+                        <!--this.arr.push(this.json.b)-->
+                <!--}-->
+            <!--}-->
+        <!--})-->
+    <!--</script>-->
+</body>
+<script>
+    var aa = function (x) {
+        var p = new Promise((resolve,reject)=>{
+                    if(x>5){
+                        x++;
+            resolve(x);
+        }else{
+            x--;
+            reject(x);
+        }
+        });
+    }
+</script>
+</html>
